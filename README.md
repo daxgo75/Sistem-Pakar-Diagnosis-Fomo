@@ -17,9 +17,9 @@ Form Diagnosis Certainty Factor
 <img width="785" height="475" alt="image" src="https://github.com/user-attachments/assets/285ad454-a754-4407-82e7-ca846a10439a" />
 
 __Run Program :__
--env.example => .env
--npm install
--composer install
--php artisan migrate
--php artisan serve
--npm run dev
+__-env.example => .env__
+__-npm install__
+__-composer install__
+__-php artisan migrate__
+__-php artisan serve__
+__-npm run dev__
