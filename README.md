@@ -1,25 +1,65 @@
-# __Sistem Pakar Diagnosis FOMO (Fear Of Missing Out) Generasi Remaja__
+# 🧠 Sistem Pakar Diagnosis FOMO (Fear Of Missing Out) Generasi Remaja
 
-__Diagnosis di sistem ini menggunakan metode forward chaining dan certainty factor__
+Proyek ini merupakan **sistem pakar berbasis web** yang digunakan untuk mendiagnosis tingkat *FOMO (Fear of Missing Out)* pada generasi remaja.  
+Sistem ini menerapkan **metode Forward Chaining** dan **Certainty Factor (CF)** untuk menghasilkan diagnosis yang lebih akurat berdasarkan gejala yang diinput oleh pengguna.
 
-Landing Page
-<img width="789" height="414" alt="image" src="https://github.com/user-attachments/assets/48817ccc-da10-49eb-abb1-b99dcf6b7415" />
+---
 
+## 🚀 Fitur Utama
 
-Dashboard User
-<img width="1568" height="886" alt="Screenshot 2025-07-28 201411" src="https://github.com/user-attachments/assets/c41d302c-a251-4438-9daf-813e1aa505ec" />
+- 🔍 **Diagnosis Forward Chaining**  
+  Menggunakan aturan berbasis penalaran maju untuk menentukan hasil diagnosis dari data gejala yang diberikan.
 
-Form Diagnosis Forward Chaining
-<img width="792" height="460" alt="image" src="https://github.com/user-attachments/assets/9d04f068-54ab-4d29-a32e-db349b908055" />
+- 📊 **Diagnosis Certainty Factor**  
+  Menghitung tingkat keyakinan terhadap diagnosis menggunakan metode *certainty factor*.
 
+- 👤 **Dashboard User**  
+  Menampilkan hasil diagnosis, riwayat, dan informasi terkait tingkat FOMO pengguna.
 
-Form Diagnosis Certainty Factor
-<img width="785" height="475" alt="image" src="https://github.com/user-attachments/assets/285ad454-a754-4407-82e7-ca846a10439a" />
+- 🏠 **Landing Page Interaktif**  
+  Tampilan awal dengan informasi singkat tentang sistem dan cara penggunaannya.
 
-__Run Program :__
-__-env.example => .env__
-__-npm install__
-__-composer install__
-__-php artisan migrate__
-__-php artisan serve__
-__-npm run dev__
+---
+
+## 🖼️ Tampilan Aplikasi
+
+### 🏠 Landing Page
+![Landing Page](https://github.com/user-attachments/assets/48817ccc-da10-49eb-abb1-b99dcf6b7415)
+
+---
+
+### 📊 Dashboard User
+![Dashboard User](https://github.com/user-attachments/assets/c41d302c-a251-4438-9daf-813e1aa505ec)
+
+---
+
+### 🧩 Form Diagnosis Forward Chaining
+![Form Forward Chaining](https://github.com/user-attachments/assets/9d04f068-54ab-4d29-a32e-db349b908055)
+
+---
+
+### 🧮 Form Diagnosis Certainty Factor
+![Form Certainty Factor](https://github.com/user-attachments/assets/285ad454-a754-4407-82e7-ca846a10439a)
+
+---
+
+## ⚙️ Instalasi & Menjalankan Proyek
+
+Ikuti langkah-langkah berikut untuk menjalankan proyek di lokal:
+
+```bash
+# 1. Duplikat file konfigurasi environment
+cp .env.example .env
+
+# 2. Install dependensi Node.js dan PHP
+npm install
+composer install
+
+# 3. Jalankan migrasi database
+php artisan migrate
+
+# 4. Jalankan server Laravel
+php artisan serve
+
+# 5. Jalankan Vite (untuk asset dan frontend)
+npm run dev
