@@ -1,4 +1,4 @@
-# 🧠 Sistem Pakar Diagnosis FOMO (Fear Of Missing Out) Generasi Remaja
+# Sistem Pakar Diagnosis FOMO (Fear Of Missing Out) Generasi Remaja
 
 Proyek ini merupakan **sistem pakar berbasis web** yang digunakan untuk mendiagnosis tingkat *FOMO (Fear of Missing Out)* pada generasi remaja.  
 Sistem ini menerapkan **metode Forward Chaining** dan **Certainty Factor (CF)** untuk menghasilkan diagnosis yang lebih akurat berdasarkan gejala yang diinput oleh pengguna.
